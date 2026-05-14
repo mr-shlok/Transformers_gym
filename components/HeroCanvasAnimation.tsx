@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useRef, useState } from 'react';
-import { useScroll, useSpring, useTransform, motion, AnimatePresence } from 'framer-motion';
+import { useScroll, useSpring, useTransform, motion } from 'framer-motion';
 
 const TOTAL_FRAMES = 40;
 
@@ -217,7 +217,7 @@ export default function HeroCanvasAnimation() {
                DISCIPLINE
              </h2>
              <div className="h-[2px] w-32 bg-[#E63946] mx-auto mb-6 shadow-[0_0_20px_#E63946]" />
-             <p className="text-white/60 text-lg md:text-2xl font-light italic">"Where focus meets transformation."</p>
+             <p className="text-white/60 text-lg md:text-2xl font-light italic">&quot;Where focus meets transformation.&quot;</p>
           </motion.div>
 
           {/* SCENE 5: LEGACY / CTA */}
