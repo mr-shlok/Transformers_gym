@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 export default function PremiumFooter() {
   return (
-    <footer className="bg-[#050505] pt-24 pb-8 relative overflow-hidden border-t border-white/10">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24">
+    <footer className="bg-[#050505] pt-16 md:pt-24 pb-8 relative overflow-hidden border-t border-white/10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
         
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-16">
           

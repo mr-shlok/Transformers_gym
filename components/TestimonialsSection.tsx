@@ -22,8 +22,8 @@ const testimonials = [
 
 export default function TestimonialsSection() {
   return (
-    <section className="py-24 bg-[#0A0A0A] relative border-y border-white/5 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24">
+    <section className="py-16 md:py-32 bg-[#0A0A0A] relative border-y border-white/5 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
         
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
@@ -32,7 +32,7 @@ export default function TestimonialsSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold font-['Playfair_Display'] text-white tracking-tight mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold font-['Playfair_Display'] text-white tracking-tight mb-4 uppercase">
             Member <span className="text-[#E63946]">Stories</span>
           </h2>
           <div className="w-24 h-1 bg-[#E63946] mx-auto opacity-50" />
@@ -57,7 +57,7 @@ export default function TestimonialsSection() {
                   <path d="M10 8c-3.3 0-6 2.7-6 6v10h10V14H8c0-2.2 1.8-4 4-4V8zm16 0c-3.3 0-6 2.7-6 6v10h10V14h-6c0-2.2 1.8-4 4-4V8z" />
                 </svg>
                 
-                <p className="text-lg md:text-xl text-white font-medium italic mb-8 leading-relaxed">
+                <p className="text-base sm:text-lg md:text-xl text-white font-medium italic mb-8 leading-relaxed">
                   &quot;{test.quote}&quot;
                 </p>
                 

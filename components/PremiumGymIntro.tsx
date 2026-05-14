@@ -15,7 +15,7 @@ const features = [
 
 export default function PremiumGymIntro() {
   return (
-    <section className="relative w-full py-24 px-6 md:px-12 lg:px-24 bg-[#050505] overflow-hidden">
+    <section className="relative w-full py-16 md:py-32 px-4 sm:px-6 md:px-12 lg:px-24 bg-[#050505] overflow-hidden">
       {/* Background Glow */}
       <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-[#E63946] rounded-full blur-[150px] opacity-10 pointer-events-none" />
       
@@ -30,13 +30,13 @@ export default function PremiumGymIntro() {
           className="flex-1 space-y-8"
         >
           <motion.h2 
-            className="text-5xl md:text-6xl font-bold font-['Playfair_Display'] leading-tight tracking-tight text-white"
+            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold font-['Playfair_Display'] leading-tight tracking-tight text-white"
           >
             The Ultimate <span className="text-[#E63946]">Fitness Experience</span> in Vasai
           </motion.h2>
           
           <motion.p 
-            className="text-lg text-gym-text-secondary leading-relaxed max-w-xl"
+            className="text-sm sm:text-base md:text-lg lg:text-xl text-gym-text-secondary leading-relaxed max-w-xl"
           >
             Transformers Gym delivers elite-level fitness experiences with world-class equipment, expert trainers, luxury interiors, and an environment designed to push human performance beyond limits.
           </motion.p>

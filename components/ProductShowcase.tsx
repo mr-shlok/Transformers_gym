@@ -7,8 +7,8 @@ import Image from 'next/image';
 
 export default function ProductShowcase() {
   return (
-    <section className="py-32 bg-[#050505] relative z-10" id="products">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-16 md:py-32 bg-[#050505] relative z-10" id="products">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
         
         <motion.div 
           initial={{ opacity: 0, y: 40 }}
@@ -17,11 +17,11 @@ export default function ProductShowcase() {
           transition={{ duration: 0.8 }}
           className="text-center mb-20"
         >
-          <h2 className="font-['Playfair_Display'] text-4xl md:text-5xl font-bold text-[#F5F5F5] mb-6">
-            Elite Equipment
+          <h2 className="font-['Playfair_Display'] text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-[#F5F5F5] mb-6 uppercase tracking-tight">
+            Elite <span className="text-[#E63946]">Equipment</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#E63946] to-[#B91C1C] mx-auto mb-6"></div>
-          <p className="font-['Inter'] text-[#A1A1AA] max-w-2xl mx-auto text-lg">
+          <p className="font-['Inter'] text-sm sm:text-base md:text-lg text-[#A1A1AA] max-w-2xl mx-auto leading-relaxed">
             Precision engineered for performance. Discover our premium range of professional gym equipment.
           </p>
         </motion.div>

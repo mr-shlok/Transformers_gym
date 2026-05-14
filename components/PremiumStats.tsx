@@ -51,10 +51,10 @@ const Counter = ({ value, suffix, decimals }: { value: number; suffix: string; d
 
   return (
     <div ref={nodeRef} className="flex items-baseline justify-center">
-      <span className="text-4xl md:text-5xl lg:text-6xl font-bold font-['Playfair_Display'] text-white tracking-tighter">
+      <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-['Playfair_Display'] text-white tracking-tighter">
         {decimals ? count.toFixed(decimals) : Math.floor(count)}
       </span>
-      <span className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#E63946] ml-1">
+      <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#E63946] ml-1">
         {suffix}
       </span>
     </div>
@@ -63,7 +63,7 @@ const Counter = ({ value, suffix, decimals }: { value: number; suffix: string; d
 
 export default function PremiumStats() {
   return (
-    <section className="relative w-full py-20 px-6 md:px-12 lg:px-24 bg-[#0A0A0A] border-y border-white/5">
+    <section className="relative w-full py-16 md:py-32 px-4 sm:px-6 md:px-12 lg:px-24 bg-[#0A0A0A] border-y border-white/5">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
           {stats.map((stat, idx) => (

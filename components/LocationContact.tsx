@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 export default function LocationContact() {
   return (
-    <section id="contact" className="py-24 bg-[#050505] relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24">
+    <section id="contact" className="py-16 md:py-32 bg-[#050505] relative overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
         
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-24 items-center">
           
@@ -18,10 +18,10 @@ export default function LocationContact() {
             className="flex-1 w-full space-y-10"
           >
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold font-['Playfair_Display'] text-white tracking-tight mb-4">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-['Playfair_Display'] text-white tracking-tight mb-4 uppercase">
                 Find <span className="text-[#E63946]">Transformers</span>
               </h2>
-              <p className="text-gym-text-secondary text-lg">
+              <p className="text-sm sm:text-base md:text-lg text-gym-text-secondary leading-relaxed">
                 Your journey begins here. Visit our premium facility and experience the difference.
               </p>
             </div>

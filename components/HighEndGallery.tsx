@@ -43,8 +43,8 @@ const galleryImages = [
 
 export default function HighEndGallery() {
   return (
-    <section className="w-full py-24 bg-[#050505] relative">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24">
+    <section className="w-full py-16 md:py-32 bg-[#050505] relative">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
         
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
@@ -53,10 +53,10 @@ export default function HighEndGallery() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold font-['Playfair_Display'] text-white tracking-tight mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold font-['Playfair_Display'] text-white tracking-tight mb-4 uppercase">
             The <span className="text-[#E63946]">Facility</span>
           </h2>
-          <p className="text-gym-text-secondary text-lg max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base md:text-lg text-gym-text-secondary max-w-2xl mx-auto leading-relaxed">
             Step into an environment engineered for greatness. Every corner is meticulously designed to inspire your transformation.
           </p>
         </motion.div>

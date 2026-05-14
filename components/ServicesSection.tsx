@@ -47,11 +47,11 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section className="py-24 bg-[#0A0A0A] relative overflow-hidden border-y border-white/5">
+    <section className="py-16 md:py-32 bg-[#0A0A0A] relative overflow-hidden border-y border-white/5">
       {/* Background elements */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#E63946] rounded-full blur-[200px] opacity-[0.03] pointer-events-none" />
       
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 lg:px-24 relative z-10">
         
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
@@ -60,7 +60,7 @@ export default function ServicesSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold font-['Playfair_Display'] text-white tracking-tight mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold font-['Playfair_Display'] text-white tracking-tight mb-4 uppercase">
             Elite <span className="text-[#E63946]">Services</span>
           </h2>
           <div className="w-24 h-1 bg-[#E63946] mx-auto opacity-50" />
