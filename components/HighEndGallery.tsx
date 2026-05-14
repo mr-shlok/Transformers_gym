@@ -23,7 +23,7 @@ const galleryImages = [
   },
   {
     id: 4,
-    src: "https://images.unsplash.com/photo-1637666217646-0ce8a47ba9ba?q=80&w=1470&auto=format&fit=crop",
+    src: "https://images.unsplash.com/photo-1583454110551-21f2fa2ec617?q=80&w=1470&auto=format&fit=crop",
     alt: "Dumbbells",
     className: "col-span-1 row-span-1 md:col-span-1 md:row-span-1",
   },

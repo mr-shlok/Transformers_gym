@@ -15,7 +15,7 @@ export const gymProducts: GymProduct[] = [
     description: 'Heavy-duty premium dumbbells engineered for elite strength training and durability.',
     price: '$129',
     rating: 5.0,
-    image: 'https://images.unsplash.com/photo-1637666217646-0ce8a47ba9ba?q=80&w=1470&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=1470&auto=format&fit=crop',
     features: ['Steel Grip', 'Anti-Slip', 'Premium Finish']
   },
   {
