@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --gym-bg-primary: #0A0A0A;
+    --gym-bg-secondary: #151515;
+    --gym-border: #2A2A2A;
+    --gym-text-primary: #F5F5F5;
+    --gym-text-secondary: #A1A1AA;
+    --gym-accent: #E63946;
+    --gym-metal: #C0C0C0;
+    --gym-gradient: linear-gradient(135deg, #0A0A0A 0%, #050505 100%);
+  }
+
+  body {
+    @apply bg-[#050505] text-[#F5F5F5] font-['Inter'] antialiased;
+  }
+
+  ::selection {
+    @apply bg-[#E63946] text-white;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #050505;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2A2A2A;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3A3A3A;
+  }
+}
