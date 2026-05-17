@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'Titan Strength | Elevate Performance',
-  description: 'Premium gym equipment engineered for elite athletes',
+  title: 'Transformers Gym | Elite Fitness Experience',
+  description: 'Premium gym facility engineered for elite athletes & personal transformation.',
+  metadataBase: new URL("https://gym-zenxtara.vercel.app"),
 };
 
 export default function RootLayout({
